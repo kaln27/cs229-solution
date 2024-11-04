@@ -65,7 +65,6 @@ $$
 
 $$
 \begin{align*}
-
 \mathcal{L} &= arg \ \underset{u:u^T u = 1}{min} \sum_{i=1}^{m} \|x^{(i)} - f_u(x^{(i)})\|_2 \\
 &=  arg \ \underset{u:u^T u = 1}{min} \sum_{i=1}^{m} \| x^{(i)} - x^{(i)T} u u \|_2 \\
 &= arg \ \underset{u:u^T u = 1}{min} \sum_{i=1}^{m} (x^{(i)} - x^{(i)T} u u)^T (x^{(i)} - x^{(i)T} u u)\\
